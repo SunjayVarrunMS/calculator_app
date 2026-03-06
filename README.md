@@ -1,17 +1,8 @@
-# calculator_app
+# Calculator App (Flutter)
 
-A new Flutter project.
+This is a basic calculator application built using Flutter for a technical club induction task. The goal of the project was to create a simple calculator that can perform the main arithmetic operations and manage the app state using Riverpod.
 
-## Getting Started
+The calculator supports addition, subtraction, multiplication and division. It also allows decimal inputs, percentage calculations, and includes buttons for clearing the entire expression (AC) and deleting the last character. The result updates dynamically as the expression changes, and the app also keeps a small history of recent calculations.
 
-This project is a starting point for a Flutter application.
+The project is organized into separate folders to keep the code readable. The models folder contains the data model used for storing calculation history. Providers contain the Riverpod state logic that manages the calculator operations. The main user interface is inside the screens folder, while reusable UI components like buttons are placed in widgets. Utility functions for evaluating expressions are kept inside the utils folder.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
